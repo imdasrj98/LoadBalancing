@@ -1,0 +1,453 @@
+*{
+// ornage primary #ffa801 secondary #ffc048
+// Secondary #69539B
+//primary
+    -fx-primary-color:  #FFF;
+            -fx-secondary-color:  #2d3436;
+    -fx-gray-color: #EEF1F6;
+    -fx-white-color: #FFF;
+    -fx-blue : #3498db;
+    -fx-toast-color: #000000;
+    -fx-selected-color: #c8d6e5;
+}
+.root {
+-fx-background-color: -fx-gray-color;
+}
+
+/*Billing window text field*/
+
+.billingTextField {
+-fx-font-size: 20px;
+-fx-background-color: -fx-gray-color;
+}
+
+/*Billing window pane color*/
+.pane{
+-fx-background-color: -fx-white-color;
+}
+
+/*Navigation bar color*/
+.navigationBarColor{
+-fx-background-color: -fx-secondary-color;
+}
+
+/*
+Tab pane design
+*/
+
+.tab {
+-fx-pref-width: 350;
+-fx-pref-height: 60;
+-fx-background-color : -fx-secondary-color;
+}
+.tab-header-background {
+-fx-background-color: -fx-secondary-color;
+}
+.button:hover{
+-fx-background-color: -fx-selected-color;
+-fx-border-color: transparent;
+}
+
+/*label providing information for user input field*/
+.label-user-input-field {
+    -fx-font-family: "Segoi UI";
+    -fx-font-size: 25px;
+
+}
+
+
+/*Home button size*/
+
+.home-btn-size {
+-fx-pref-width: 300;
+-fx-pref-height: 120;
+}
+
+
+/* Tab pane design end*/
+
+.button:hover{
+-fx-background-color: -fx-selected-color;
+-fx-border-color: transparent;
+}
+
+.buttonsize{
+-fx-pref-width: 244;
+-fx-pref-height:46;
+}
+
+.button-icon-size{
+-fx-fit-width:85;
+-fx-fit-height:50;
+}
+
+
+.secondary-color{
+-fx-background-color: -fx-secondary-color;
+}
+.dark-background{
+    -fx-background-color: -fx-primary-color;
+}
+.light-background{
+    -fx-background-color: -fx-gray-color;
+}
+
+.button{
+    -fx-border-color: -fx-secondary-color;
+    -fx-background-color:-fx-secondary-color;
+    -fx-background-radius: 2em;
+    -fx-border-radius: 2em;
+    -fx-text-fill: -fx-white-color;
+    -fx-font-family: "Segoi UI";
+    -fx-font-size: 25px;
+}
+.jfx-text-field{
+    -fx-text-fill: -fx-secondary-color;
+}
+.headings{
+    -fx-text-fill: -fx-white-color;
+}
+.jfx-combo-box {
+    //-fx-background-color: -fx-primary-color;
+}
+.jfx-combo-box.label {
+
+    -fx-text-fill: -fx-white-color;
+    -fx-selectedValueLabel-fill: -fx-selected-color;
+}
+.scroll-pane{
+    -fx-background-color: -fx-primary-color;
+    -fx-border-color: -fx-primary-color;
+    -fx-padding: 2px;
+}
+.scroll-pane .scroll-bar:vertical{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+}
+.scroll-pane .scroll-bar:horizontal{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+}
+.scroll-pane .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0em;
+}
+
+.scroll-pane .scroll-bar:horizontal .decrement-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+     -fx-padding: 0 0 10 10
+}
+.scroll-pane .scroll-bar:vertical .decrement-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 10 10
+}
+
+.scroll-pane .scroll-bar:horizontal .increment-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+
+}
+.scroll-pane .scroll-bar:vertical .decrement-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+
+}
+
+.scroll-pane .scroll-bar .increment-arrow,
+.scroll-pane .scrollbar .increment-arrow{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar .decrement-arrow{
+    -fx-background-color: transparent;
+}
+
+
+.scroll-pane .scroll-bar:vertical .thumb{
+    -fx-background-color: -fx-secondary-color;
+    -fx-background-insets: 2,0,0;
+    -fx-background-radius: 2em;
+}
+.scroll-pane .scroll-bar:horizontal .thumb{
+    -fx-background-color: -fx-secondary-color;
+    -fx-background-insets: 2,0,0;
+    -fx-background-radius: 2em;
+}
+
+
+
+.backgroundTransparent{
+    -fx-background-color: transparent;
+}
+.darkborder{
+    -fx-border-color: -fx-primary-color;
+}
+.vbox{
+    -fx-background-color: -fx-secondary-color;
+    -fx-border-radius: 2em;
+}
+.open-window-button{
+
+    -fx-border-color: -fx-primary-color;
+    -fx-border-radius: 2em;
+}
+.jfx-date-picker .jfx-text-field{
+    -jfx-unfocus-color: -fx-primary-color;
+    -jfx-default-color: -fx-primary-color;
+}
+.jfx-date-picker{
+-jfx-default-color: -fx-secondary-color;
+}
+.white-background{
+    -fx-background-color: -fx-color-white;
+
+}
+
+.icon{
+-fx-fill: -fx-secondary-color;
+-fx-size: 3em;
+
+}
+.close-icon{
+
+-fx-fill: -fx-primary-color;
+}
+.tooltip{
+-fx-font-size: 20px;
+}
+.reportButton {
+-fx-font-family: "Century Gothic";
+-fx-font-size: 25px;
+
+}
+
+.titlePaneHeading{
+-fx-text-fill: -fx-white-color;
+-fx-font-size: 30;
+-fx-font-family: "Segoi UI";
+
+}
+
+.navigationButton{
+-fx-background-color: transparent;
+-fx-border-color: transparent;
+}
+
+.stack-pane {
+-fx-pref-width: 1234;
+-fx-pref-height: 600;
+
+}
+
+.anchor-pane {
+-fx-pref-width: 1234;
+-fx-pref-height: 600;
+}
+
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -jfx-cell-vertical-margin: 10.0;
+        -jfx-vertical-gap: 10;
+        -jfx-horizontal-gap: 10;
+
+
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: -fx-selected-color;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: -fx-selected-color;
+}
+
+.list-view .list-cell {
+    -fx-background-color: -fx-secondary-color;
+    -fx-text-fill: white;
+}
+
+.list-view .label {
+    -fx-text-fill: white;
+}
+
+.jfx-rippler {
+    -jfx-rippler-fill: GRAY;
+}
+.list-view .scroll-bar:vertical .thumb{
+    -fx-background-color: -fx-secondary-color;
+    -fx-background-insets: 2,0,0;
+    -fx-background-radius: 2em;
+}
+.list-view .scroll-bar:horizontal .thumb{
+    -fx-background-color: -fx-secondary-color;
+    -fx-background-insets: 2,0,0;
+    -fx-background-radius: 2em;
+}
+.list-view .scroll-bar:vertical .decrement-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+
+}
+.list-view .scroll-bar:vertical .decrement-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 10 10
+}
+
+.list-view .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0em;
+}
+.list-view .scroll-bar .increment-arrow{
+    -fx-background-color: transparent;
+}
+.list-view .scroll-bar .decrement-arrow{
+    -fx-background-color: transparent;
+}
+
+
+
+.btn-dialog {
+
+-fx-background-color: -fx-secondary-color;
+-fx-border-color: -fx-secondary-color;
+-fx-background-radius: 100;
+-fx-font-size:20;
+}
+
+.jfx-snackbar-toast{
+    -fx-text-fill: -fx-white-color;
+}
+
+.jfx-snackbar-content{
+    -fx-background-color: -fx-toast-color;
+    -fx-border-radius: 3em;
+    -fx-background-radius: 5em;
+
+}
+
+.panelButtonColor{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+
+}
+.tittlePaneBackground{
+    -fx-background-color: -fx-secondary-color;
+
+}
+
+//Table View
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/* Spaltenköpfe
+    Struktur column-header-background -> column-header */
+
+.table-view .column-header-background{
+    -fx-background-color: -fx-secondary-color;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: -fx-secondary-color;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-gray-color;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-primary-color;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: -fx-selected-color;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .scroll-bar:vertical .thumb{
+    -fx-background-color: -fx-secondary-color;
+    -fx-background-insets: 2,0,0;
+    -fx-background-radius: 2em;
+}
+.table-view .scroll-bar:horizontal .thumb{
+    -fx-background-color: -fx-secondary-color;
+    -fx-background-insets: 2,0,0;
+    -fx-background-radius: 2em;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+//bar chart
+.axis {
+    -fx-font-size: 2em;
+    -fx-tick-label-fill: #914800;
+    -fx-font-family: Tahoma;
+    -fx-tick-length: 15;
+    -fx-minor-tick-length: 10;
+}
+
+.axis-label {
+   -fx-text-fill: #462300;
+
+}
+
+.axis-tick-mark {
+    -fx-stroke: #637040;
+    -fx-stroke-width: 3;
+}
+.axis-minor-tick-mark {
+    -fx-stroke: #859656;
+}
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+
+.report-image {
+
+-fx-image: url("..\..\..\icons\report2.png");
+}
+
+.tableimage {
+-fx-image: url("@..\..\..\icons\table.png");
+}
+

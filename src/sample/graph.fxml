@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="stack_pane" stylesheets="@maincss.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GraphController">
+    <children>
+        <AnchorPane fx:id="anchorPaneResize" prefHeight="630.0" prefWidth="1612.0">
+            <children>
+                <AnchorPane fx:id="titlePane" prefHeight="70.0" prefWidth="1612.0" styleClass="tittlePaneBackground" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <ImageView fitHeight="44.0" fitWidth="50.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="titlePaneHeading" layoutX="72.0" layoutY="13.0" styleClass="titlePaneHeading" text="GRAPH" />
+                  <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="14.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons/bar_chart.png" />
+                     </image>
+                  </ImageView>
+
+                    </children>
+                </AnchorPane>
+
+                <VBox layoutX="0.0" layoutY="70.0" prefHeight="530.0" prefWidth="97.0" styleClass="navigationBarColor" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="70.0">
+                    <children>
+                        <JFXButton fx:id="home_btn" onAction="#openWindowAction" text=" ">
+                            <graphic>
+                                <FontAwesomeIcon fill="#f8f6f6" glyphName="HOME" size="2em" />
+                            </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="chart_btn" onAction="#openWindowAction" text=" ">
+                            <graphic>
+                                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@icons/bar_chart.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="table_btn" onAction="#openWindowAction" text=" ">
+                            <graphic>
+                                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@icons/table.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </JFXButton>
+                    </children>
+                </VBox>
+            <JFXListView fx:id="graphListView" layoutX="106.0" layoutY="81.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="81.0" />
+            </children>
+
+
+        </AnchorPane>
+    </children>
+
+</StackPane>
